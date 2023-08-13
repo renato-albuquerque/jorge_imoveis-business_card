@@ -12,9 +12,10 @@
 
 :root {
     font-size: 62.5%;
-    --roboto: 'Roboto', sans-serif;
+    --ff-roboto: 'Roboto', sans-serif;
 
     --green-color: #2BA549;
     --white-color: #ffffff;
     --black-color: #000000;
 }
+
