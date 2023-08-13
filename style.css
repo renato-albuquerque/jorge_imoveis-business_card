@@ -1,0 +1,20 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ----- */
+
+:root {
+    font-size: 62.5%;
+    --roboto: 'Roboto', sans-serif;
+
+    --green-color: #2BA549;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
