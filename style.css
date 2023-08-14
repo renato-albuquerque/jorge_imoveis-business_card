@@ -25,16 +25,18 @@
 body {
     font-family: var(--ff-roboto);
     width: 32rem;
+    margin: 0 auto;
 }
 
 .container {
     width: 28rem;
     margin: 0 auto;
+    position: relative;
 }
 
 .section-1 {
     height: 50vh;
-    background-image: url(https://images.unsplash.com/photo-1550574364-0f0c891d6353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FvJTIwbHVpc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://i.pinimg.com/236x/59/f1/b2/59f1b2e78b888957d60d2333658b1cd4--tempo-brazil.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -52,10 +54,29 @@ body {
 
 .fa-flag-usa, .fa-canadian-maple-leaf, .fa-share-nodes {
     font-size: 2.5rem;
-    color: var(--white-color);
+    color: var(--black-color);
 } 
 
 .section-2 {
     height: 50vh;
     background-color: var(--green-color);
+}
+
+.wrapFirstInfoSection-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.imageSection-2 {
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+}
+
+.textSection-2 {
+    margin-top: 7rem;
+    font-size: 2.2rem;
 }
