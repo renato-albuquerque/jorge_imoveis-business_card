@@ -14,6 +14,8 @@
 :root {
     font-size: 62.5%;
     --ff-roboto: 'Roboto', sans-serif;
+    --ff-gloria: 'Gloria Hallelujah', cursive;
+    --ff-fredericka: 'Fredericka the Great', cursive;
 
     --green-color: #2BA549;
     --white-color: #ffffff;
@@ -45,6 +47,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 3rem;
     width: 28rem;
     margin: 0 auto;
@@ -57,11 +60,16 @@ body {
 
 .flags {
     width: 4rem;
+    height: 3rem;
+    border-radius: 0.5rem;
 }
 
 .fa-share-nodes {
-    font-size: 3.5rem;
-    color: var(--black-color);
+    font-size: 3rem;
+    color: var(--green-color);
+    background-color: var(--white-color);
+    padding: 0.5rem;
+    border-radius: 50%;
 } 
 
 .section-2 {
@@ -84,7 +92,8 @@ body {
 
 .textSection-2 {
     margin-top: 7rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    font-family: var(--ff-fredericka);
 }
 
 .firstWrapIconsSection-2 {
@@ -107,7 +116,7 @@ body {
     padding-bottom: 3rem;
 }
 
-.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-twitter {
+.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
     font-size: 3.5rem;
     color: var(--white-color);
 }
