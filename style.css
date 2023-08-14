@@ -102,23 +102,39 @@ body {
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
-.secondWrapIconsSection-2, .thirdWrapIconsSection-2 {
+.secondWrapIconsSection-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6rem;
     margin-top: 3rem;
-}
-
-.secondWrapIconsSection-2 {
-    padding-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
     font-size: 3.5rem;
     color: var(--white-color);
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer p {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footer .footerName {
+    color:var(--white-color);
+}
+
+.footer .footerName:hover {
+    color:var(--green-color);
+    transition: all 0.3s;
 }
 
