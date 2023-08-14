@@ -71,9 +71,9 @@ body {
 }
 
 .imageSection-2 {
-    border-radius: 50%;
+    border-radius: 1rem;
     position: absolute;
-    top: 25rem;
+    top: 25.5rem;
 }
 
 .textSection-2 {
