@@ -26,10 +26,11 @@ body {
     font-family: var(--ff-roboto);
     width: 32rem;
     margin: 0 auto;
+    background-color: var(--green-color);
 }
 
 .container {
-    width: 28rem;
+    width: 32rem;
     margin: 0 auto;
     position: relative;
 }
@@ -45,6 +46,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
+    width: 28rem;
+    margin: 0 auto;
 }
 
 .headerFlags {
@@ -52,13 +55,16 @@ body {
     gap: 2rem;
 }
 
-.fa-flag-usa, .fa-canadian-maple-leaf, .fa-share-nodes {
+.flags {
+    width: 4rem;
+}
+
+.fa-share-nodes {
     font-size: 3.5rem;
     color: var(--black-color);
 } 
 
 .section-2 {
-    height: 50vh;
     background-color: var(--green-color);
 }
 
@@ -73,7 +79,7 @@ body {
 .imageSection-2 {
     border-radius: 1rem;
     position: absolute;
-    top: 25.5rem;
+    top: 21rem;
 }
 
 .textSection-2 {
@@ -95,6 +101,10 @@ body {
     align-items: center;
     gap: 5rem;
     margin-top: 3rem;
+}
+
+.thirdWrapIconsSection-2 {
+    padding-bottom: 3rem;
 }
 
 .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-twitter {
