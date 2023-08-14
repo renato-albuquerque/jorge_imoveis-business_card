@@ -53,7 +53,7 @@ body {
 }
 
 .fa-flag-usa, .fa-canadian-maple-leaf, .fa-share-nodes {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--black-color);
 } 
 
@@ -80,3 +80,25 @@ body {
     margin-top: 7rem;
     font-size: 2.2rem;
 }
+
+.firstWrapIconsSection-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.secondWrapIconsSection-2, .thirdWrapIconsSection-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-twitter {
+    font-size: 3.5rem;
+    color: var(--white-color);
+}
+
