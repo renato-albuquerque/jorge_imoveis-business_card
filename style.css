@@ -133,11 +133,11 @@ body {
 }
 
 .footer .footerName {
-    color:var(--white-color);
+    color:var(--green-color);
 }
 
 .footer .footerName:hover {
-    color:var(--green-color);
+    color:var(--white-color);
     transition: all 0.3s;
 }
 
