@@ -75,7 +75,7 @@ body {
 .section-2 {
     background-image: linear-gradient(var(--green-color), #207936, black);
     position: relative;
-    height: 45rem;
+    height: 50rem;
     border-radius: 0 0 1rem 1rem;
 }
 
@@ -113,12 +113,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 7rem;
 }
 
 .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: var(--white-color);
 }
 
