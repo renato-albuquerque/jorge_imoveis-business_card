@@ -37,10 +37,11 @@ body {
 }
 
 .section-1 {
-    height: 50vh;
-    background-image: url(https://i.pinimg.com/236x/59/f1/b2/59f1b2e78b888957d60d2333658b1cd4--tempo-brazil.jpg);
+    height: 35rem;
+    background-image: url(https://images.pexels.com/photos/7061669/pexels-photo-7061669.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-position: center center;
     background-size: cover;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .header {
@@ -67,14 +68,15 @@ body {
     font-size: 3rem;
     color: var(--green-color);
     background-color: var(--white-color);
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 50%;
 } 
 
 .section-2 {
     background-image: linear-gradient(var(--green-color), #207936, black);
     position: relative;
-    /* height: 50vh; */
+    height: 45rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .wrapFirstInfoSection-2 {
@@ -89,6 +91,7 @@ body {
     border-radius: 1rem;
     position: absolute;
     top: -6rem;
+    width: 20rem;
 }
 
 .textSection-2 {
@@ -102,7 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 6rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .secondWrapIconsSection-2 {
@@ -111,7 +114,7 @@ body {
     align-items: center;
     gap: 6rem;
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
