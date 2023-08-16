@@ -14,8 +14,7 @@
 :root {
     font-size: 62.5%;
     --ff-roboto: 'Roboto', sans-serif;
-    --ff-gloria: 'Gloria Hallelujah', cursive;
-    --ff-fredericka: 'Fredericka the Great', cursive; /* Check better font. */
+    --ff-poppins: 'Poppins', sans-serif;
 
     --green-color: #2BA549;
     --white-color: #ffffff;
@@ -74,8 +73,6 @@ body {
 
 .section-2 {
     background-image: linear-gradient(var(--green-color), #207936, black);
-    position: relative;
-    height: 50rem;
     border-radius: 0 0 1rem 1rem;
 }
 
@@ -89,16 +86,17 @@ body {
 
 .imageSection-2 {
     border-radius: 1rem;
-    position: absolute;
-    top: -6rem;
     width: 20rem;
+    margin-top: 3rem;
 }
 
 .textSection-2 {
-    margin-top: 7rem;
+    margin-top: 3rem;
     text-align: center;
-    font-size: 2rem;
-    font-family: var(--ff-roboto);
+    text-shadow: 1px 1px 2.5px #46fd74;
+    font-size: 1.5rem;
+    font-family: var(--ff-poppins);
+    color: var(--black-color);
 }
 
 .firstWrapIconsSection-2 {
