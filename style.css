@@ -37,8 +37,8 @@ body {
 
 .section-1 {
     height: 35rem;
-    background-image: url(files/centro-sao-luis.jpg);
-    background-position: left 13% center;
+    background-image: url(files/litoranea-saoluis.jpeg);
+    background-position: right 27% center;
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
 }
