@@ -81,7 +81,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    width: 70%;
+    width: 32rem;
 }
 
 .imageSection-2 {
@@ -91,12 +91,27 @@ body {
 }
 
 .textSection-2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
     text-shadow: 3px 3px 8px var(--black-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: var(--ff-poppins);
     color: var(--white-color);
+}
+
+.nameJorgeSection-2 {
+    text-align: center;
+    text-shadow: 3px 3px 8px var(--black-color);
+    margin-top: 1.5rem;
+    color: var(--white-color);
+    font-family: var(--ff-poppins);
+    font-size: 2rem;
+}
+
+.jobJorgeSection-2 {
+    text-align: center;
+    font-family: var(--ff-poppins);
+    font-size: 1.5rem;
 }
 
 .firstWrapIconsSection-2 {

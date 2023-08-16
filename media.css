@@ -11,13 +11,24 @@
         width: 33.5rem;
     }
 
+    .wrapFirstInfoSection-2 {
+        width: 35.5rem;
+    }
+
     .imageSection-2 {
-        top: -8rem;
         width: 25rem;
     }    
 
     .textSection-2 {
-        font-size: 2rem; 
+        font-size: 1.1rem;
+    }
+    
+    .nameJorgeSection-2 {
+        font-size: 2.5rem;
+    }
+
+    .jobJorgeSection-2 {
+        font-size: 2rem;
     }
 
     .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
@@ -47,13 +58,24 @@
         font-size: 4rem;
     } 
 
+    .wrapFirstInfoSection-2 {
+        width: 40.5rem;
+    }
+
     .imageSection-2 {
-        top: -8.5rem;
         width: 28rem;
     }    
 
     .textSection-2 {
-        font-size: 2.3rem; 
+        font-size: 1.3rem;
+    }
+    
+    .nameJorgeSection-2 {
+        font-size: 3rem;
+    }
+
+    .jobJorgeSection-2 {
+        font-size: 2.5rem;
     }
 
     .fa-globe, .fa-envelope, .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-youtube, .fa-x-twitter {
