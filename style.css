@@ -37,8 +37,8 @@ body {
 
 .section-1 {
     height: 35rem;
-    background-image: url(https://images.pexels.com/photos/7061669/pexels-photo-7061669.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-position: center center;
+    background-image: url(files/centro-sao-luis.jpg);
+    background-position: left 13% center;
     background-size: cover;
     border-radius: 1rem 1rem 0 0;
 }
