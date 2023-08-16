@@ -1,20 +1,11 @@
-
-
-
-
-
-
-
-
-
-// FUNCTION
+// function
 
 function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
 			title: 'Jorge Imóveis - Cartão de Visita Digital',
-			text: 'Atuante no mercado imobiliário desde 1982',
-			url: 'https://jorgeimoveis.com.br/'
+			text: 'Aluguel, Compra, Venda e Atividades Afins.',
+			url: 'https://jorgeimoveis-cartaodevisita.vercel.app/'
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));

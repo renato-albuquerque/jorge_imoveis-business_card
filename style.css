@@ -96,8 +96,9 @@ body {
 
 .textSection-2 {
     margin-top: 7rem;
-    font-size: 2.5rem;
-    font-family: var(--ff-fredericka);
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--ff-roboto);
 }
 
 .firstWrapIconsSection-2 {
