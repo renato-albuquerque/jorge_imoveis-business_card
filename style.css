@@ -69,6 +69,7 @@ body {
     background-color: var(--white-color);
     padding: 1rem;
     border-radius: 50%;
+    cursor: pointer;
 } 
 
 .section-2 {
@@ -111,7 +112,8 @@ body {
 .jobJorgeSection-2 {
     text-align: center;
     font-family: var(--ff-poppins);
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: var(--white-color);
 }
 
 .firstWrapIconsSection-2 {
